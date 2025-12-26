@@ -31,13 +31,8 @@
 | ⚙️ **System Administrator – Jose Guerrero** | Indianapolis | Operates INDY-AD-DC; manages baseline security; creates PowerShell remediation scripts; runs Tenable scans; monitors KQL events |
 | 🛡️ **Security Administrator – Joseph Knight** | Des Moines | Operates DSM-MEMBER-SRV; enforces STIG; monitors EDR; conducts vulnerability assessments; maps potential threats via KQL |
 
----
-
-# 📖 Table of Contents
-
-[Lab 1 – INDY-AD-DC](#lab-1--indy-ad-dc)
-[Lab 2 – DSM-MEMBER-SRV](#lab-2--dsm-member-srv)
-
+# Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
+# Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
 
 ---
 
@@ -68,7 +63,7 @@
 </tr>
 </table>
 
-[Lab 1 – INDY-AD-DC](#lab-1--indy-ad-dc)
+# Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
 
 <div align="center">
   <img width="424" height="416" alt="nDfUJrc" src="https://github.com/user-attachments/assets/e68a2d03-bbe6-47f7-86d6-b53b310acb01" />
@@ -98,7 +93,7 @@
 
 ---
 
-[Lab 2 – DSM-MEMBER-SRV](#lab-2--dsm-member-srv)
+# Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
 
 #lab-2--dsm-member-srv-member--application-server-
 <div align="center">
