@@ -33,7 +33,7 @@
 
 ---
 
-## 📌Operational Directives (from CISO)
+## 📌Operational Directives (from CISO) to Indianapolis & Des Moines Offices
 
 <table>
 <tr>
