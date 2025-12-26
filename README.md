@@ -92,7 +92,6 @@
 
 # Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
 
-#lab-2--dsm-member-srv-member--application-server-
 <div align="center">
   <img width="429" height="462" alt="Q4F6X6c" src="https://github.com/user-attachments/assets/0c1c6f2c-54eb-4079-ab70-c9f22bd0582d" />
 </div>
