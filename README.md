@@ -69,7 +69,7 @@
 </table>
 
 # Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
-
+[🏢🛡️ Lab 1 – INDY-AD-DC (Active Directory Domain Controller)](#lab-1--indy-ad-dc-active-directory-domain-controller-🏢🛡️)
 <div align="center">
   <img width="424" height="416" alt="nDfUJrc" src="https://github.com/user-attachments/assets/e68a2d03-bbe6-47f7-86d6-b53b310acb01" />
 </div>
