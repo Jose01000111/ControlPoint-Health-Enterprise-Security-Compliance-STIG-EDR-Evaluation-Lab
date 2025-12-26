@@ -33,6 +33,14 @@
 
 ---
 
+# 📖 Table of Contents
+
+## Lab Index
+- [Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️](#lab-1--indy-ad-dc-active-directory-domain-controller-🏢🛡️)
+- [Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️](#lab-2--dsm-member-srv-member--application-server-🏬🗄️)
+
+---
+
 ## 📌Operational Directives (from CISO) to Indianapolis & Des Moines Offices
 
 <table>
@@ -62,7 +70,9 @@
 
 # Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
 
-<img width="424" height="416" alt="nDfUJrc" src="https://github.com/user-attachments/assets/e68a2d03-bbe6-47f7-86d6-b53b310acb01" />
+<div align="center">
+  <img width="424" height="416" alt="nDfUJrc" src="https://github.com/user-attachments/assets/e68a2d03-bbe6-47f7-86d6-b53b310acb01" />
+</div>
 
 ### I manage INDY-AD-DC, a Tier 0 Active Directory Domain Controller in the Indianapolis office. I focus on securing critical identity infrastructure, performing baseline hardening, monitoring Microsoft Defender EDR, running daily PowerShell and KQL checks, and ensuring user and group management scripts are operational. I map authentication flows and generate reports to detect lateral movement and maintain audit integrity. 🔒
 
@@ -90,7 +100,9 @@
 
 # Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
 
-<img width="429" height="462" alt="Q4F6X6c" src="https://github.com/user-attachments/assets/0c1c6f2c-54eb-4079-ab70-c9f22bd0582d" />
+<div align="center">
+  <img width="429" height="462" alt="Q4F6X6c" src="https://github.com/user-attachments/assets/0c1c6f2c-54eb-4079-ab70-c9f22bd0582d" />
+</div>
 
 ### I manage DSM-MEMBER-SRV, a Tier 1/2 member server in Des Moines that stores sensitive client PII/PHI. My focus is on maintaining STIG compliance, developing and applying PowerShell remediation scripts, conducting daily KQL monitoring, and validating controls with Tenable. I also assess potential lateral movement toward AD to ensure sensitive data remains protected and audit integrity is maintained. 🔐
 
