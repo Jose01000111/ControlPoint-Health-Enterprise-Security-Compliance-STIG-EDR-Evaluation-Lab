@@ -35,9 +35,9 @@
 
 # 📖 Table of Contents
 
-## Lab Index
-- [Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️](#lab-1--indy-ad-dc-active-directory-domain-controller-🏢🛡️)
-- [Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️](#lab-2--dsm-member-srv-member--application-server-🏬🗄️)
+Jump to Lab 1: [Lab 1 – INDY-AD-DC](#lab-1--indy-ad-dc-active-directory-domain-controller-)
+Jump to Lab 2: [Lab 2 – DSM-MEMBER-SRV](#lab-2--dsm-member-srv-member--application-server-)
+
 
 ---
 
@@ -69,7 +69,7 @@
 </table>
 
 # Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
-[🏢🛡️ Lab 1 – INDY-AD-DC (Active Directory Domain Controller)](#lab-1--indy-ad-dc-active-directory-domain-controller-🏢🛡️)
+
 <div align="center">
   <img width="424" height="416" alt="nDfUJrc" src="https://github.com/user-attachments/assets/e68a2d03-bbe6-47f7-86d6-b53b310acb01" />
 </div>
@@ -99,7 +99,7 @@
 ---
 
 # Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
-
+#lab-2--dsm-member-srv-member--application-server-
 <div align="center">
   <img width="429" height="462" alt="Q4F6X6c" src="https://github.com/user-attachments/assets/0c1c6f2c-54eb-4079-ab70-c9f22bd0582d" />
 </div>
