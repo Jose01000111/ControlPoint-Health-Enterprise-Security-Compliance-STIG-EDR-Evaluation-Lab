@@ -60,4 +60,56 @@
 </tr>
 </table>
 
+# Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
+
+**Summary:**  
+I manage INDY-AD-DC, a Tier 0 Active Directory Domain Controller in the Indianapolis office. I focus on securing critical identity infrastructure, performing baseline hardening, monitoring Microsoft Defender EDR, running daily PowerShell and KQL checks, and ensuring user and group management scripts are operational. I map authentication flows and generate reports to detect lateral movement and maintain audit integrity. 🔒
+
+## Tasks 📝
+- Map AD authentication flows and access paths.  
+- Conduct baseline vulnerability assessments.  
+- Implement and maintain user/group management scripts.  
+- Perform daily PowerShell security checks.  
+- Run **daily KQL monitoring scripts** to detect anomalies and suspicious activity.  
+- Track alerts and investigate incidents via Microsoft Defender EDR.  
+- Conduct Tenable vulnerability scans to assess system security.  
+- Generate reports documenting operational and security impacts.  
+
+## Tech Stack 💻
+| Category                 | Tools / Technologies                     |
+|--------------------------|-----------------------------------------|
+| Operating System         | Windows Server (Active Directory)       |
+| Security / Monitoring    | Microsoft Defender EDR                   |
+| Scripting / Automation   | PowerShell, KQL                          |
+| Vulnerability Management | Tenable Nessus                           |
+| Identity Management      | Active Directory, custom scripts        |
+| Reporting / Analysis     | KQL reports, authentication flow mapping|
+| Incident Response        | Custom IR scripts                        |
+
+---
+
+# Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
+
+**Summary:**  
+I manage DSM-MEMBER-SRV, a Tier 1/2 member server in Des Moines that stores sensitive client PII/PHI. My focus is on maintaining STIG compliance, developing and applying PowerShell remediation scripts, conducting daily KQL monitoring, and validating controls with Tenable. I also assess potential lateral movement toward AD to ensure sensitive data remains protected and audit integrity is maintained. 🔐
+
+## Tasks 📝
+- Run initial vulnerability and **STIG drift prevention** assessments.  
+- Develop and apply **PowerShell remediation scripts** to enforce STIG compliance.  
+- Perform daily KQL monitoring checks.  
+- Validate compliance with Tenable vulnerability scans.  
+- Map potential lateral movement toward AD.  
+- Document operational impacts and compliance status.  
+
+## Tech Stack 💻
+| Category                 | Tools / Technologies                     |
+|--------------------------|-----------------------------------------|
+| Operating System         | Windows Server (Member Server)          |
+| Compliance / Hardening   | STIG Benchmarks                          |
+| Scripting / Automation   | PowerShell (STIG remediation), KQL      |
+| Vulnerability Management | Tenable Nessus                           |
+| Reporting / Analysis     | KQL reports, Tenable compliance checks  |
+| Incident Response        | Custom IR scripts                        |
+
+
 
