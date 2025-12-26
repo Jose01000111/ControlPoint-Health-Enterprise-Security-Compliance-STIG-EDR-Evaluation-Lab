@@ -60,7 +60,7 @@
 </tr>
 </table>
 
-# Lab 1 – INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
+# INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
 
 <div align="center">
   <img width="424" height="416" alt="nDfUJrc" src="https://github.com/user-attachments/assets/e68a2d03-bbe6-47f7-86d6-b53b310acb01" />
@@ -90,7 +90,7 @@
 
 ---
 
-# Lab 2 – DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
+# DSM-MEMBER-SRV (Member / Application Server) 🏬🗄️
 
 <div align="center">
   <img width="429" height="462" alt="Q4F6X6c" src="https://github.com/user-attachments/assets/0c1c6f2c-54eb-4079-ab70-c9f22bd0582d" />
