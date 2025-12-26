@@ -77,16 +77,16 @@
 ## 🔐 ControlPoint Leadership – INDY-AD-DC Updates
 <img width="692" height="436" alt="Nu1MCVM" src="https://github.com/user-attachments/assets/612e2864-434f-41cd-9f1d-b1ecad54c924" />
 
-## Tech Stack 💻
-| Category                 | Tools / Technologies                     |
-|--------------------------|-----------------------------------------|
-| Operating System         | Windows Server (Active Directory)       |
-| Security / Monitoring    | Microsoft Defender EDR                   |
-| Scripting / Automation   | PowerShell, KQL                          |
-| Vulnerability Management | Tenable Nessus                           |
-| Identity Management      | Active Directory, custom scripts        |
-| Reporting / Analysis     | KQL reports, authentication flow mapping|
-| Incident Response        | Custom IR scripts                        |
+## Tech Stack💻 & Documnetation📄
+| Category                 | Tools / Technologies                     | Documentation |
+|--------------------------|-----------------------------------------|---------------|
+| 🖥️ Operating System       | Windows Server (Active Directory)       | 📜 AD access policy |
+| 🛡️ Security / Monitoring  | Microsoft Defender EDR                   | 🗂️ Identity management procedures (user/group management scripts) |
+| ⚙️ Scripting / Automation  | PowerShell, KQL                          | 📑 Audit and compliance procedures |
+| 🔍 Vulnerability Management | Tenable Nessus                           | ✅ Vulnerability management procedures |
+| 🧑‍💼 Identity Management   | Active Directory, custom scripts        | 🛠️ Incident response (IR) scripts |
+| 📊 Reporting / Analysis     | KQL reports, authentication flow mapping| - |
+| 🚨 Incident Response       | Custom IR scripts                        | - |
 
 ---
 
@@ -106,15 +106,16 @@
 ## 🔐 ControlPoint Leadership – DSM-MEMBER-SRV Updates
 <img width="732" height="391" alt="dm4aw9a" src="https://github.com/user-attachments/assets/ec52664c-2070-4d6f-8b9b-90b034abb597" />
 
-## Tech Stack 💻
-| Category                 | Tools / Technologies                     |
-|--------------------------|-----------------------------------------|
-| Operating System         | Windows Server (Member Server)          |
-| Compliance / Hardening   | STIG Benchmarks                          |
-| Scripting / Automation   | PowerShell (STIG remediation), KQL      |
-| Vulnerability Management | Tenable Nessus                           |
-| Reporting / Analysis     | KQL reports, Tenable compliance checks  |
-| Incident Response        | Custom IR scripts                        |
+## Tech Stack💻 & Documnetation📄
+| Category                 | Tools / Technologies                     | Documentation |
+|--------------------------|-----------------------------------------|---------------|
+| 🖥️ Operating System       | Windows Server (Member Server)          | 📜 Sensitive Data & Security Procedures |
+| 🛠️ Compliance / Hardening  | STIG Benchmarks                          | 🗂️ Data classification and handling rules |
+| ⚙️ Scripting / Automation  | PowerShell (STIG remediation), KQL      | 🔒 Access control for PHI/PII |
+| 🔍 Vulnerability Management | Tenable Nessus                           | ✅ Vulnerability management procedures |
+| 📊 Reporting / Analysis     | KQL reports, Tenable compliance checks  | 🛠️ Incident response (IR) scripts |
+| 🚨 Incident Response       | Custom IR scripts                        | - |
+
 
 
 
