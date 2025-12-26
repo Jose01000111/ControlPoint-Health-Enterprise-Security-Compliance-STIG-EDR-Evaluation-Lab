@@ -1,11 +1,6 @@
 # 💡 ControlPoint Health – Enterprise Hybrid Security Lab for STIG, EDR, and Risk-Based Compliance Assessment
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/847ae5d2-60a3-4eb2-95df-31f767bbab40" 
-       alt="KzO2BF7" 
-       width="751" 
-       height="496" />
-</p>
+<img width="1098" height="470" alt="pZiNoeY" src="https://github.com/user-attachments/assets/9fcc1f28-abc5-4719-a5ad-2382ad7a51c8" />
 
 ### ControlPoint Health, a nationwide health insurance provider with 15 offices 🏥, is running a hybrid security program to test preventive STIG hardening and detection-focused EDR monitoring 🛡️. The lab focuses on critical identity infrastructure and servers holding sensitive PII/PHI, balancing compliance, cost, and enterprise risk 💼. Teams perform vulnerability assessments, apply automated PowerShell remediation, monitor events via KQL, and evaluate detection across system tiers. By simulating real-world conditions in Indianapolis and Des Moines, the organization identifies cost-efficient, secure, and scalable controls for enterprise-wide adoption.
 
