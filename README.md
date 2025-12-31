@@ -191,3 +191,28 @@
 
 ### [👉📄 DSM-MEMBER-SRV Master Compliance Script](https://github.com/Jose01000111/ControlPoint-Health-Enterprise-Security-Compliance-STIG-EDR-Evaluation-Lab/commit/a379c5018977c1fd0680ceed20e8787f0d601a6d)
 
+---
+
+# Security and Financial Assessment 🔐💰
+
+### [👉📄Security and Financial Assessment](https://github.com/Jose01000111/ControlPoint-Health-Enterprise-Security-Compliance-STIG-EDR-Evaluation-Lab/blob/main/Security%20and%20Financial%20Assessment%20.pdf)
+
+### Overview 📝
+> Lab results for STIG compliance on DSM-MEMBER-SRV, a Tier 1/2 member/application server handling sensitive PII/PHI and financial data.  
+
+### Findings ⚠️
+> Initial assessment identified 7 STIG deviations, including weak password policies, disabled auditing, and an unauthorized admin account.  
+
+### Remediation 🛠️
+> All drift corrected: password and lockout policies enforced, auditing restored, and unauthorized accounts removed.  
+
+### Monitoring 🤖
+> Daily automated PowerShell script implemented to detect any future drift within 24 hours.  
+
+### Compliance ✅
+> Compliance improved from 71% → 100%, with all high-risk findings resolved.  
+
+### Conclusion 🏆
+> STIG enforcement ensures robust security, protects sensitive financial and personal data, and aligns with VA and government standards.
+
+
