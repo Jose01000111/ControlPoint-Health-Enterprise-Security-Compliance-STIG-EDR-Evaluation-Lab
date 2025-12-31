@@ -130,7 +130,8 @@
 > #### 👀 Observing drift outputs helps me understand what non-compliance looks like.
 
 ---
-### [👉📄 Detect Drift, Remediate Drift & Validate Compliance]
+### [👉📄 Detect Drift, Remediate Drift & Validate Compliance](https://github.com/Jose01000111/ControlPoint-Health-Enterprise-Security-Compliance-STIG-EDR-Evaluation-Lab/commit/a5b3579170202d08a9712af4d4ef300f75d619bb)
+
 ## **Step 1 – Detect Drift** 🔍  
 ### I checked the password policy, auditing settings, and local users to identify deviations from STIG.  
 
@@ -164,7 +165,8 @@
 
 ## **Step 4 – Daily Monitoring Script** 🗓️  
 ### I created a daily monitoring script to automate drift detection. It checks password policy, auditing, and unapproved admins. Any drift is written to a report, and compliance status is printed to the console.  
-### [👉📄 Daily Monitoring Script]
+
+### [👉📄 Daily Monitoring Script](https://github.com/Jose01000111/ControlPoint-Health-Enterprise-Security-Compliance-STIG-EDR-Evaluation-Lab/blob/main/Daily_STIG_Drift_Monitor.ps1)
 
 <img width="719" height="705" alt="CGRQ1MC" src="https://github.com/user-attachments/assets/de56d0b9-25ad-4160-8eb0-6b6bd1b2bfac" />
 
@@ -174,10 +176,17 @@
 
 ---
 
+### Reviewing Recent Events: DSM-MEMBER-SRV STIG Drift ⚠️📝⚙️
+
+> ## Received a formal write-up for STIG drift 🚨, took notes 📝, updated policies 📑, and created a Master Compliance Script ⚙️ to enforce compliance.
+
+---
+
 ## 🔐 ControlPoint Leadership – DSM-MEMBER-SRV Updates
 
 <img width="714" height="609" alt="zCGhmok" src="https://github.com/user-attachments/assets/9f327cf6-af8a-4f00-954e-c29d40a8d7f0" />
 
-### [👉📄 ]
-### [👉📄 ]
+### [👉📄 DSM-MEMBER-SRV Change Management & Policy Enforcement](https://github.com/Jose01000111/ControlPoint-Health-Enterprise-Security-Compliance-STIG-EDR-Evaluation-Lab/blob/main/DSM-MEMBER-SRV%20CHANGE%20MANAGEMENT%20%26%20POLICY%20ENFORCEMENT.pdf)
+
+### [👉📄 DSM-MEMBER-SRV Master Compliance Script](https://github.com/Jose01000111/ControlPoint-Health-Enterprise-Security-Compliance-STIG-EDR-Evaluation-Lab/commit/a379c5018977c1fd0680ceed20e8787f0d601a6d)
 
