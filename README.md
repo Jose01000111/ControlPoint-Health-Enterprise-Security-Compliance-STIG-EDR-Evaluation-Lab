@@ -175,4 +175,7 @@
 
 ## 🔐 ControlPoint Leadership – DSM-MEMBER-SRV Updates
 
+<img width="714" height="609" alt="zCGhmok" src="https://github.com/user-attachments/assets/9f327cf6-af8a-4f00-954e-c29d40a8d7f0" />
+
+
 
