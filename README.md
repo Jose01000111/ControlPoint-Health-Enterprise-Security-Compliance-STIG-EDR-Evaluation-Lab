@@ -130,7 +130,7 @@
 > #### 👀 Observing drift outputs helps me understand what non-compliance looks like.
 
 ---
-
+### [👉📄 Detect Drift, Remediate Drift & Validate Compliance]
 ## **Step 1 – Detect Drift** 🔍  
 ### I checked the password policy, auditing settings, and local users to identify deviations from STIG.  
 
@@ -164,6 +164,7 @@
 
 ## **Step 4 – Daily Monitoring Script** 🗓️  
 ### I created a daily monitoring script to automate drift detection. It checks password policy, auditing, and unapproved admins. Any drift is written to a report, and compliance status is printed to the console.  
+### [👉📄 Daily Monitoring Script]
 
 <img width="719" height="705" alt="CGRQ1MC" src="https://github.com/user-attachments/assets/de56d0b9-25ad-4160-8eb0-6b6bd1b2bfac" />
 
@@ -177,5 +178,6 @@
 
 <img width="714" height="609" alt="zCGhmok" src="https://github.com/user-attachments/assets/9f327cf6-af8a-4f00-954e-c29d40a8d7f0" />
 
-
+### [👉📄 ]
+### [👉📄 ]
 
