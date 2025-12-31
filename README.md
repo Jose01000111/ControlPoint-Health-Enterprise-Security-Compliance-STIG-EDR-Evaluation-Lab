@@ -6,7 +6,7 @@
 
 ## 💼 **Key Systems in the Lab:**  
 > - **INDY-AD-DC (Indianapolis)** – Critical AD infrastructure supporting **sales and business operations**, baseline + EDR.  
-> - **DSM-MEMBER-SRV (Des Moines)** – Server holding **client PII/PHI**, STIG-aligned + EDR for detection and compliance.  
+> - **DSM-MEMBER-SRV (Des Moines)** – Server holding **client PII/PHI**, STIG-aligned.
 
 ## 🎯 **Objective:**  
 > - Determine **where STIG controls are necessary** versus where **baseline security + EDR is sufficient**.  
