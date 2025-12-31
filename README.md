@@ -111,6 +111,70 @@
 | 📊 Reporting / Analysis     | KQL reports, Tenable compliance checks  | 🛠️ Incident response (IR) scripts |
 | 🚨 Incident Response       | Custom IR scripts                        | - |
 
+---
+
+# 📝 Lab Log – STIG Drift Practice on Windows Server 2025
+**Date:** 2025-12-30  
+**Author:** Joseph Knight  
+**Environment:** DSM-MEMBER-SRV (Des Moines) – Windows Server 2025  
+Today, I started a hands-on lab to practice **STIG compliance, drift detection, and remediation** on a Windows Server 2025 member server holding sensitive client PII/PHI. My goal is to understand how to maintain a secure environment, identify deviations from the baseline, and apply corrective actions safely. This log documents my step-by-step journey: detecting drift, remediating it, validating compliance, and setting up a daily monitoring script to automate drift checks. I’ll include **screenshots placeholders**, notes, and reflections as I progress. This lab is part of my ongoing learning process to improve my skills in **server hardening, compliance enforcement, and vulnerability management**. Every observation and action is helping me connect theory to practical application in a real-world enterprise environment. Let’s dive in! 🚀
+
+<img width="669" height="402" alt="4nzHZda" src="https://github.com/user-attachments/assets/ab3c07e5-956d-418c-8084-a8c7f1b684c1" />
+
+## **Step 0 – Lab Context & Setup** 🏁  
+I set up the lab environment and introduced controlled drift so I could practice detection and remediation. I created directories for **PHI** and **PII**, added test files, encrypted them, then weakened the password policy, disabled logon auditing, and added an unapproved admin user.  
+
+<img width="648" height="167" alt="wqZzVz3" src="https://github.com/user-attachments/assets/1d163b30-908c-4e70-824e-48c7109b31d1" />
+
+**Things of Note:**  
+> ### ⚠️ This step is context only; I didn’t remediate here.  
+> ### 👀 Observing drift outputs helps me understand what non-compliance looks like.  
+
+## **Step 1 – Detect Drift** 🔍  
+I checked the password policy, auditing settings, and local users to identify deviations from STIG.  
+
+<img width="616" height="368" alt="onCd4Br" src="https://github.com/user-attachments/assets/da0bab6e-ca41-4bb5-a069-2007f09302fd" />
+
+**Things of Note:**  
+- 🕵️ Detection is observation-focused; I needed to see drift before fixing it.  
+- 🔑 Password policy was weak, auditing disabled, and LabAdmin user existed.  
+
+---
+
+## **Step 2 – Remediate Drift** 🛠️  
+I applied fixes to restore compliance: reset the password policy, re-enabled auditing, and removed unapproved admin accounts.  
+
+<img width="726" height="519" alt="W6Dyojp" src="https://github.com/user-attachments/assets/2eac1238-02ce-4d20-aab2-ed8ad3840f2f" />
+
+**Things of Note:**  
+- 📌 Knowing the correct baseline is critical before applying changes.  
+- ⚡ This step felt like corrective maintenance on the VM.  
+
+---
+
+## **Step 3 – Validate Compliance** ✅  
+After remediation, I confirmed the password policy, auditing, and user accounts were compliant.  
+
+<img width="687" height="334" alt="vghmLbT" src="https://github.com/user-attachments/assets/27f2eefb-e68f-47af-9d99-ef05a889c0b2" />
+
+**Things of Note:**  
+- 🔍 Validation is essential to ensure remediation worked.  
+- 💡 Seeing outputs match the STIG baseline gave confidence in compliance.  
+
+---
+
+## **Step 4 – Daily Monitoring Script** 🗓️  
+I created a daily monitoring script to automate drift detection. It checks password policy, auditing, and unapproved admins. Any drift is written to a report, and compliance status is printed to the console.  
+
+<img width="719" height="705" alt="CGRQ1MC" src="https://github.com/user-attachments/assets/de56d0b9-25ad-4160-8eb0-6b6bd1b2bfac" />
+
+**Things of Note:**  
+- 🤖 Automation makes ongoing compliance manageable.  
+- 🛡️ Learned to handle missing directories so the script runs safely the first time.  
+- ⏱️ Scheduling the script in Task Scheduler is next to maintain continuous monitoring.  
+
+---
+
 
 
 
