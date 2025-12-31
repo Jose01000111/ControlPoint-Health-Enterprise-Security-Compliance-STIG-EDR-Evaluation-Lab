@@ -99,7 +99,8 @@
 > - Map potential lateral movement toward AD and document operational impacts and compliance status.
 
 ## 🔐 ControlPoint Leadership – DSM-MEMBER-SRV Updates
-<img width="732" height="391" alt="dm4aw9a" src="https://github.com/user-attachments/assets/ec52664c-2070-4d6f-8b9b-90b034abb597" />
+
+<img width="734" height="319" alt="OrC2tWW" src="https://github.com/user-attachments/assets/c90af939-938f-48ca-8780-c50f2f710df0" />
 
 ## Tech Stack💻 & Documnetation📄
 | Category                 | Tools / Technologies                     | Documentation |
