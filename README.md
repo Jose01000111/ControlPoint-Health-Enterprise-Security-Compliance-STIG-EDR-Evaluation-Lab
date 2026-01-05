@@ -16,19 +16,12 @@
 
 ## 📌Operational Directives (from CISO) to Des Moines Offices
 
-</td>
-<td>
-
-**Work Order 2 – DSM-MEMBER-SRV**  
+**Work Order – DSM-MEMBER-SRV**  
 - Assigned to: 🛡️ Joseph Knight  
 - CC: Alex Patel, Samantha Lee, David Chen  
 - Task: Enforce STIG compliance on server holding PII/PHI; run Tenable vulnerability scan; monitor EDR alerts; document risk exposure and mitigation recommendations.  
 
 <img src="https://github.com/user-attachments/assets/8258695d-c87a-4621-940a-dad8f2f396d7" width="300" />
-
-</td>
-</tr>
-</table>
 
 ---
 
