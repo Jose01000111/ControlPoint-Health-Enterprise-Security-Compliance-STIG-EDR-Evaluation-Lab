@@ -1,6 +1,6 @@
 # 💡 ControlPoint Health – Enterprise Hybrid Security Lab for STIG, EDR, and Risk-Based Compliance Assessment
 
-### ControlPoint Health, a nationwide health insurance provider with 15 offices 🏥, is running a hybrid security program to test preventive STIG hardening and detection-focused EDR monitoring 🛡️. The lab focuses on critical identity infrastructure and servers holding sensitive PII/PHI, balancing compliance, cost, and enterprise risk 💼. Teams perform vulnerability assessments, apply automated PowerShell remediation, monitor endpoint and security events, and evaluate detection across system tiers. By simulating real-world conditions across multiple regional environments, the organization identifies cost-efficient, secure, and scalable controls for enterprise-wide adoption.
+### ControlPoint Health, a nationwide health insurance provider with 15 offices 🏥, is running a hybrid security program to test preventive STIG hardening and detection-focused EDR monitoring 🛡️. The lab focuses on critical identity infrastructure and servers holding sensitive PII/PHI, balancing compliance, cost, and enterprise risk 💼. Teams enforce hardened baselines, apply automated PowerShell remediation, monitor endpoint and security events, and evaluate detection across system tiers. By simulating real-world conditions across multiple regional environments, the organization identifies cost-efficient, secure, and scalable controls for enterprise-wide adoption.
 
 ## 👥 ControlPoint Health – Staff Overview
 
@@ -9,19 +9,25 @@
 | 🛡️ **CISO – Maria Thompson** | Nationwide | Owns overall security posture; approves hybrid model; final authority on risk acceptance |
 | 🖥️ **Director of Cybersecurity Ops – Alex Patel** | Nationwide | Defines endpoint & identity strategy; manages EDR deployment; reviews alert trends and detection effectiveness |
 | 📜 **Director of Risk & Compliance – Samantha Lee** | Nationwide | Establishes HIPAA-aligned compliance policies; determines STIG applicability; evaluates audit and regulatory impact |
-| 🔍 **Vulnerability Management Lead – David Chen** | Nationwide | Oversees Tenable scanning; reviews STIG compliance; prioritizes remediation based on risk |
-| 🛡️ **Security Administrator – Joseph Knight** | Des Moines | Operates DSM-MEMBER-SRV; enforces STIG; monitors EDR; conducts vulnerability assessments; maps potential threats |
+| 🛡️ **Security Administrator – Joseph Knight** | Des Moines | Operates DSM-MEMBER-SRV; enforces STIG; monitors EDR; validates compliance state; maps potential threats |
 
 ---
 
 ## 📌Operational Directives (from CISO) to Des Moines Offices
 
-**Work Order – DSM-MEMBER-SRV**  
+</td>
+<td>
+
+**Work Order 2 – DSM-MEMBER-SRV**  
 - Assigned to: 🛡️ Joseph Knight  
-- CC: Alex Patel, Samantha Lee, David Chen  
-- Task: Enforce STIG compliance on server holding PII/PHI; run Tenable vulnerability scan; monitor EDR alerts; document risk exposure and mitigation recommendations.  
+- CC: Alex Patel, Samantha Lee  
+- Task: Enforce STIG compliance on server holding PII/PHI; monitor EDR alerts; document risk exposure and mitigation recommendations.  
 
 <img src="https://github.com/user-attachments/assets/8258695d-c87a-4621-940a-dad8f2f396d7" width="300" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -31,11 +37,11 @@
   <img width="429" height="462" alt="Q4F6X6c" src="https://github.com/user-attachments/assets/0c1c6f2c-54eb-4079-ab70-c9f22bd0582d" />
 </div>
 
-### I manage DSM-MEMBER-SRV, a Tier 1/2 member server in Des Moines that stores sensitive client PII/PHI. My focus is on maintaining STIG compliance, developing and applying PowerShell remediation scripts, validating controls with Tenable, and monitoring endpoint security events. I also assess potential lateral movement toward AD to ensure sensitive data remains protected and audit integrity is maintained. 🔐
+### I manage DSM-MEMBER-SRV, a Tier 1/2 member server in Des Moines that stores sensitive client PII/PHI. My focus is on maintaining STIG compliance, developing and applying PowerShell remediation scripts, validating baseline configuration state, and monitoring endpoint security events. I also assess potential lateral movement toward AD to ensure sensitive data remains protected and audit integrity is maintained. 🔐
 
 ## Tasks 📝
-> - Run initial vulnerability and **STIG drift prevention** assessments, and develop/apply PowerShell remediation scripts to enforce STIG compliance.  
-> - Perform daily security monitoring checks and validate compliance with Tenable vulnerability scans.  
+> - Run initial **STIG drift prevention** assessments and develop/apply PowerShell remediation scripts to enforce STIG compliance.  
+> - Perform daily security monitoring checks and validate baseline compliance state.  
 > - Map potential lateral movement toward AD and document operational impacts and compliance status.
 
 ## 🔐 ControlPoint Leadership – DSM-MEMBER-SRV Updates
@@ -43,14 +49,13 @@
 <img width="734" height="319" alt="OrC2tWW" src="https://github.com/user-attachments/assets/c90af939-938f-48ca-8780-c50f2f710df0" />
 
 ## Tech Stack💻 & Documnetation📄
-| Category                 | Tools / Technologies                     | Documentation |
-|--------------------------|-----------------------------------------|---------------|
-| 🖥️ Operating System       | Windows Server (Member Server)          | 📜 Sensitive Data & Security Procedures |
-| 🛠️ Compliance / Hardening  | STIG Benchmarks                          | 🗂️ Data classification and handling rules |
-| ⚙️ Scripting / Automation  | PowerShell (STIG remediation)           | 🔒 Access control for PHI/PII |
-| 🔍 Vulnerability Management | Tenable Nessus                           | ✅ Vulnerability management procedures |
-| 📊 Reporting / Analysis     | Compliance reports, scan results        | 🛠️ Incident response (IR) scripts |
-| 🚨 Incident Response       | Custom IR scripts                        | - |
+| Category                 | Tools / Technologies            | Documentation |
+|--------------------------|---------------------------------|---------------|
+| 🖥️ Operating System       | Windows Server (Member Server) | 📜 Sensitive Data & Security Procedures |
+| 🛠️ Compliance / Hardening  | STIG Benchmarks                 | 🗂️ Data classification and handling rules |
+| ⚙️ Scripting / Automation  | PowerShell (STIG remediation)  | 🔒 Access control for PHI/PII |
+| 📊 Reporting / Analysis     | Compliance reports              | 🛠️ Incident response (IR) scripts |
+| 🚨 Incident Response       | Custom IR scripts               | - |
 
 ---
 
@@ -59,7 +64,7 @@
 > #### Author: Joseph Knight  
 > #### Environment: DSM-MEMBER-SRV (Des Moines) – Windows Server 2025  
 
-### Today, I started a hands-on lab to practice **STIG compliance, drift detection, and remediation** on a Windows Server 2025 member server holding sensitive client PII/PHI. My goal is to understand how to maintain a secure environment, identify deviations from the baseline, and apply corrective actions safely. This log documents my step-by-step journey: detecting drift, remediating it, validating compliance, and setting up a daily monitoring script to automate drift checks. I’ll include **screenshots placeholders**, notes, and reflections as I progress. This lab is part of my ongoing learning process to improve my skills in **server hardening, compliance enforcement, and vulnerability management**. Every observation and action is helping me connect theory to practical application in a real-world enterprise environment. Let’s dive in! 🚀
+### Today, I started a hands-on lab to practice **STIG compliance, drift detection, and remediation** on a Windows Server 2025 member server holding sensitive client PII/PHI. My goal is to understand how to maintain a secure environment, identify deviations from the baseline, and apply corrective actions safely. This log documents my step-by-step journey: detecting drift, remediating it, validating compliance, and setting up a daily monitoring script to automate drift checks. I’ll include **screenshots placeholders**, notes, and reflections as I progress. This lab is part of my ongoing learning process to improve my skills in **server hardening, compliance enforcement, and configuration management**. Every observation and action is helping me connect theory to practical application in a real-world enterprise environment. Let’s dive in! 🚀
 
 <img width="669" height="402" alt="4nzHZda" src="https://github.com/user-attachments/assets/ab3c07e5-956d-418c-8084-a8c7f1b684c1" />
 
@@ -141,7 +146,7 @@
 > Lab results for STIG compliance on DSM-MEMBER-SRV, a Tier 1/2 member/application server handling sensitive PII/PHI and financial data.  
 
 ### Findings ⚠️
-> Initial assessment identified 7 STIG deviations, including weak password policies, disabled auditing, and an unauthorized admin account.  
+> Initial assessment identified STIG deviations, including weak password policies, disabled auditing, and an unauthorized admin account.  
 
 ### Remediation 🛠️
 > All drift corrected: password and lockout policies enforced, auditing restored, and unauthorized accounts removed.  
@@ -150,10 +155,7 @@
 > Daily automated PowerShell script implemented to detect any future drift within 24 hours.  
 
 ### Compliance ✅
-> Compliance improved from 71% → 100%, with all high-risk findings resolved.  
+> Compliance improved from partial enforcement → full enforcement, with all high-risk findings resolved.  
 
 ### Conclusion 🏆
 > STIG enforcement ensures robust security, protects sensitive financial and personal data, and aligns with VA and government standards.
-
-
-
