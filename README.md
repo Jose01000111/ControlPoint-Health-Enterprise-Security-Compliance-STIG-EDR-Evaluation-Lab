@@ -1,19 +1,6 @@
 # 💡 ControlPoint Health – Enterprise Hybrid Security Lab for STIG, EDR, and Risk-Based Compliance Assessment
 
-<img width="1098" height="470" alt="pZiNoeY" src="https://github.com/user-attachments/assets/9fcc1f28-abc5-4719-a5ad-2382ad7a51c8" />
-
 ### ControlPoint Health, a nationwide health insurance provider with 15 offices 🏥, is running a hybrid security program to test preventive STIG hardening and detection-focused EDR monitoring 🛡️. The lab focuses on critical identity infrastructure and servers holding sensitive PII/PHI, balancing compliance, cost, and enterprise risk 💼. Teams perform vulnerability assessments, apply automated PowerShell remediation, monitor events via KQL, and evaluate detection across system tiers. By simulating real-world conditions in Indianapolis and Des Moines, the organization identifies cost-efficient, secure, and scalable controls for enterprise-wide adoption.
-
-## 💼 **Key Systems in the Lab:**  
-> - **INDY-AD-DC (Indianapolis)** – Critical AD infrastructure supporting **sales and business operations**, baseline + EDR.  
-> - **DSM-MEMBER-SRV (Des Moines)** – Server holding **client PII/PHI**, STIG-aligned.
-
-## 🎯 **Objective:**  
-> - Determine **where STIG controls are necessary** versus where **baseline security + EDR is sufficient**.  
-> - Identify **cost-efficient security strategies** while maintaining compliance.  
-> - Develop a **scalable model** for enterprise-wide adoption across all offices.  
-
----
 
 ## 👥 ControlPoint Health – Staff Overview
 
@@ -23,23 +10,12 @@
 | 🖥️ **Director of Cybersecurity Ops – Alex Patel** | Nationwide | Defines endpoint & identity strategy; manages EDR deployment; reviews alert trends and detection effectiveness |
 | 📜 **Director of Risk & Compliance – Samantha Lee** | Nationwide | Establishes HIPAA-aligned compliance policies; determines STIG applicability; evaluates audit and regulatory impact |
 | 🔍 **Vulnerability Management Lead – David Chen** | Nationwide | Oversees Tenable scanning; reviews STIG compliance; prioritizes remediation based on risk |
-| ⚙️ **System Administrator – Jose Guerrero** | Indianapolis | Operates INDY-AD-DC; manages baseline security; creates PowerShell remediation scripts; runs Tenable scans; monitors KQL events |
 | 🛡️ **Security Administrator – Joseph Knight** | Des Moines | Operates DSM-MEMBER-SRV; enforces STIG; monitors EDR; conducts vulnerability assessments; maps potential threats via KQL |
 
 ---
 
-## 📌Operational Directives (from CISO) to Indianapolis & Des Moines Offices
+## 📌Operational Directives (from CISO) to Des Moines Offices
 
-<table>
-<tr>
-<td>
-
-**Work Order 1 – INDY-AD-DC**  
-- Assigned to: ⚙️ Jose Guerrero  
-- CC: Alex Patel, Samantha Lee, David Chen  
-- Task: Execute baseline + EDR evaluation; run vulnerability assessment; implement PowerShell scripts for AD account and security management; generate daily KQL threat mapping; document operational and security impact.  
-
-<img src="https://github.com/user-attachments/assets/ae49ad25-684e-4846-9bf6-9e4fed311d56" width="300" />
 
 </td>
 <td>
@@ -54,34 +30,6 @@
 </td>
 </tr>
 </table>
-
-# INDY-AD-DC (Active Directory Domain Controller) 🏢🛡️
-
-<div align="center">
-  <img width="424" height="416" alt="nDfUJrc" src="https://github.com/user-attachments/assets/e68a2d03-bbe6-47f7-86d6-b53b310acb01" />
-</div>
-
-### I manage INDY-AD-DC, a Tier 0 Active Directory Domain Controller in the Indianapolis office. I focus on securing critical identity infrastructure, performing baseline hardening, monitoring Microsoft Defender EDR, running daily PowerShell and KQL checks, and ensuring user and group management scripts are operational. I map authentication flows and generate reports to detect lateral movement and maintain audit integrity. 🔒
-
-## Tasks 📝
-> - Map AD authentication flows and access paths, and conduct baseline vulnerability assessments.  
-> - Implement and maintain user/group management scripts and perform daily PowerShell security checks.  
-> - Run **daily KQL monitoring scripts** to detect anomalies and suspicious activity, and track alerts via Microsoft Defender EDR.  
-> - Conduct Tenable vulnerability scans to assess system security and generate operational/security reports.
-
-## 🔐 ControlPoint Leadership – INDY-AD-DC Updates
-<img width="692" height="436" alt="Nu1MCVM" src="https://github.com/user-attachments/assets/612e2864-434f-41cd-9f1d-b1ecad54c924" />
-
-## Tech Stack💻 & Documnetation📄
-| Category                 | Tools / Technologies                     | Documentation |
-|--------------------------|-----------------------------------------|---------------|
-| 🖥️ Operating System       | Windows Server (Active Directory)       | 📜 AD access policy |
-| 🛡️ Security / Monitoring  | Microsoft Defender EDR                   | 🗂️ Identity management procedures (user/group management scripts) |
-| ⚙️ Scripting / Automation  | PowerShell, KQL                          | 📑 Audit and compliance procedures |
-| 🔍 Vulnerability Management | Tenable Nessus                           | ✅ Vulnerability management procedures |
-| 🧑‍💼 Identity Management   | Active Directory, custom scripts        | 🛠️ Incident response (IR) scripts |
-| 📊 Reporting / Analysis     | KQL reports, authentication flow mapping| - |
-| 🚨 Incident Response       | Custom IR scripts                        | - |
 
 ---
 
